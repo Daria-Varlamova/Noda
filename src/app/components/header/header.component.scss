@@ -100,7 +100,6 @@
       transition: color ease-in .2s;
       background-image: linear-gradient(90deg, #AA82FF 3.2%, #EB6C73 116%);
       -webkit-background-clip: text;
-      -webkit-text-fill-color: text;
       background-clip: text;
     }
   }
@@ -153,7 +152,6 @@
         color: transparent;
         background-image: linear-gradient(90deg, #AA82FF 3.2%, #EB6C73 116%);
         -webkit-background-clip: text;
-        -webkit-text-fill-color: text;
         background-clip: text;
       }
     }
