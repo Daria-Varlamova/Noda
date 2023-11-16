@@ -1,0 +1,59 @@
+.p-dropdown {
+  width: 100%;
+  border-radius: 4px;
+  padding: 0;
+  min-height: 56px;
+  align-items: center;
+  border: 2px solid transparent;
+
+  &:not(.p-disabled):hover {
+    border: 2px solid transparent;
+    box-shadow: none;
+  }
+
+  &.p-dropdown-open {
+    border: 2px solid var(--noda-color-elements-primary, #6936D3) !important;
+    box-shadow: none !important;
+
+    .p-dropdown-trigger {
+      color: var(--noda-color-elements-primary, #6936D3);
+    }
+  }
+
+  &:not(.p-disabled).p-focus {
+    border: 2px solid transparent;
+    box-shadow: none;
+  }
+}
+
+.p-overlay {
+  left: -2px !important;
+}
+
+.p-inputtext {
+  padding: 16px 16px 8px 16px;
+}
+
+.p-dropdown-label {
+  font-family: 'Archivo';
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  background: var(--noda-color-bg-100, #F7F9FC);
+}
+
+.p-float-label input:focus~label,
+.p-float-label input.p-filled~label,
+.p-float-label textarea:focus~label,
+.p-float-label textarea.p-filled~label,
+.p-float-label .p-inputwrapper-focus~label,
+.p-float-label .p-inputwrapper-filled~label {
+  top: 17px;
+  left: 16px;
+  font-family: 'Archivo';
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--noda-color-elements-primary, #6936D3);
+}

@@ -1,0 +1,32 @@
+<section class="start">
+  <div class="padding-left">
+    <div class="start-inner">
+      <div class="block-text">
+        <h2 class="start-title">Let’s start!</h2>
+        <p class="start-block-text block-text__text">
+          Create customized payment pages effortlessly using our chatbot. Answer a few questions about your company and
+          industry, and our chatbot will generate tailored payment pages that perfectly match your needs.
+        </p>
+
+        <app-button [label]="'Create with Noda →'" [newClass]="'btn--classic'"></app-button>
+      </div>
+
+      <swiper
+        class="swiper-start"
+        [config]="config">
+        <ng-template swiperSlide>
+          <img src="assets/imgs/img-1.png" alt="">
+        </ng-template>
+        <ng-template swiperSlide>
+          <img src="assets/imgs/img-2.png" alt="">
+        </ng-template>
+        <ng-template swiperSlide>
+          <img src="assets/imgs/img-1.png" alt="">
+        </ng-template>
+        <ng-template swiperSlide>
+          <img src="assets/imgs/img-2.png" alt="">
+        </ng-template>
+      </swiper>
+    </div>
+  </div>
+</section>

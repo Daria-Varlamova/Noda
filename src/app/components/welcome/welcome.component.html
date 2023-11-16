@@ -1,0 +1,40 @@
+<section class="welcome">
+  <div class="padding">
+    <h2 class="welcome-title">Welcome to Noda Payment Links</h2>
+    <div class="welcome-inner">
+      <div class="block-text">
+        <span class="block-text__description">
+          Where we harness the power of AI to revolutionize the way creating payment pages
+        </span>
+        <p class="block-text__text">
+          Our advanced platform combines the capabilities of <b>ChatGPT</b> for generating detailed text descriptions
+          and
+          <b>MidJourney</b> for selecting suitable images.
+        </p>
+        <p class="block-text__text">
+          With our innovative solution, you can effortlessly design and customize branded order pages for every
+          transaction, complete with the following features
+        </p>
+
+        <svg class="icon icon-arrow">
+          <use href="assets/imgs/sprite.svg#arrow"></use>
+        </svg>
+      </div>
+
+      <form class="form" [formGroup]="form">
+        <app-dropdown [values]="types" [label]="'Select your business type'"></app-dropdown>
+
+        <app-input-text [label]="'E-mail'"></app-input-text>
+
+        <app-input-text [label]="'Phone number'"></app-input-text>
+
+        <app-checkbox [checked]="false" [label]="'I have Noda account'"></app-checkbox>
+
+        <app-button
+          [newClass]="'btn--classic btn--small-classic'"
+          [label]="'Start using Noda Payment links'">
+        </app-button>
+      </form>
+    </div>
+  </div>
+</section>

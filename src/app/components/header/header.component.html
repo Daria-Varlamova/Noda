@@ -1,0 +1,80 @@
+<header class="header">
+  <a class="logo" href="#">
+    <img src="assets/imgs/logo.svg" alt="">
+  </a>
+
+  <nav class="menu-nav">
+    <ul class="menu-nav__list">
+      <li class="menu-nav__item">
+        <a class="menu-nav__link" href="#">Products</a>
+
+        <ul class="dropdown">
+          <li class="dropdown__item">
+            <div class="dropdown__block">
+              <p class="dropdown__text">Pay-ins</p>
+
+              <ul class="dropdown__list dropdown__list--row">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    <img class="dropdown__img" src="assets/imgs/icon-1.svg" alt="">
+                    <div class="dropdown__text-block">
+                      <h2 class="dropdown__title">Open Banking Payments</h2>
+                      <p class="dropdown__description">Fast, secure, and regulated bank transfers</p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    <img class="dropdown__img" src="assets/imgs/icon-2.svg" alt="">
+                    <div class="dropdown__text-block">
+                      <h2 class="dropdown__title">Card Payments</h2>
+                      <p class="dropdown__description">Easy card payments processing for merchants</p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    <img class="dropdown__img" src="assets/imgs/icon-3.svg" alt="">
+                    <div class="dropdown__text-block">
+                      <h2 class="dropdown__title">Checkout Form</h2>
+                      <p class="dropdown__description">Streamlined checkout experience for customers</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="dropdown__block">
+              <p class="dropdown__text">Pay-outs</p>
+
+              <ul class="dropdown__list dropdown__list--column">
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    <img class="dropdown__img dropdown__img--small" src="assets/imgs/icon-4.svg" alt="">
+                    <div class="dropdown__text-block">
+                      <h2 class="dropdown__title">Bank Payouts</h2>
+                      <p class="dropdown__description">Convenient and fast bank-based payouts for merchants</p>
+                    </div>
+                  </a>
+                </li>
+
+                <li class="dropdown__item">
+                  <a class="dropdown__link" href="#">
+                    <img class="dropdown__img dropdown__img--small" src="assets/imgs/icon-5.svg" alt="">
+                    <div class="dropdown__text-block">
+                      <h2 class="dropdown__title">Card Payouts</h2>
+                      <p class="dropdown__description">Effortless card-based payouts for merchants</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <app-button [label]="'Start using Noda'" [newClass]="'btn btn--gradient'"></app-button>
+</header>
